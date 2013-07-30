@@ -1,0 +1,19 @@
+﻿
+
+/*
+ * $Rev: * $
+ * Created: fengling
+ * Modified: $Author: fengling $ $LastChangedDate: 2010-08-03 09:00:00 +0800 (星期二, 09 五月 2011) $
+ */
+ /*---------------banner模块-----------------*/
+.banner{ width:100%; height:286px; position:relative; margin-top:10px; }
+.banner #big_img{}
+.banner #big_img li{width:100%; height:286px; position:absolute; left:0; top:0;}
+.banner #big_img li img{ width:950px; height:286px;}
+.banner #contr{ position:absolute; width:100%; height:15px; left:0; bottom:20px; z-index:20000;}
+.banner #contr ul{ float:right; display:inline; margin-right:15px;}
+.banner #contr ul li{ float:left; display:inline; margin-left:10px; height:10px; width:55px; background-color:#6A6A6A; color:#fff; line-height:15px; text-align:center; cursor:pointer;}
+.banner #contr ul li.this{ background-color:#CE6700;}
+.nva2{ margin-top:20px; overflow:hidden; width:100%;}
+.nva2 li{ float:left; display:inline; margin-right:20px;}
+.nva2 li.last{ margin-right:0;}

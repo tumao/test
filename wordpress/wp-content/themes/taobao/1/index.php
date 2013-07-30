@@ -1,0 +1,137 @@
+<?php get_header(); ?>
+	<div id="main">
+		<div id="content">			
+			<div>	
+				<img src="<?php bloginfo('template_url'); ?>/images/sliderbar.png">
+			</div>
+			<div class="col1">
+				<div class="col11">
+					<div class="chartype"> 
+						<span>我们是谁</span><br/>WHO WE ARE 
+					</div>
+					
+				</div>
+				<div class="pic">
+						<img src="<?php bloginfo('template_url'); ?>/images/fly.png">
+				</div>
+				<div class="blank"></div>
+			</div>
+			<div class="chat">
+				<div class="chat_pic">
+					<img src="<?php bloginfo('template_url'); ?>/images/chat.png">
+				</div>
+				<div class="chat_char">
+					<div class="chat_charstyle">
+						<span>8年电商运营经验<br/>4年淘宝专业运营<br/>团队精英来自阿里巴巴、京东、当当网<br/>天猫4A广告公司等知名公司</span>
+					</div>
+				</div>				
+			</div>
+			<div class="advt">
+				<div class="cols1"> 
+					<div class="chartype">
+						<span>我们的优势</span><br/>OUR ADVANTAGES
+					</div>
+				</div>
+				<div class="advtcols2">
+					<div class="advtcols2sty">
+						<span>极有激情、创造力的团队与品牌商共同成长、共担风险；<br/>一对一项目经理制，保障专人专项对接服务；<br/>与多家最知名的时尚零售类电子商务网站长期合作，助力全网营销。
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="midpic">
+				<div class="midpiccols1">
+				<img src="<?php bloginfo('template_url'); ?>/images/midpic.png">
+				</div>
+			</div>
+			<div class="lamp">
+				<div class="lampcols1">
+					<img src="<?php bloginfo('template_url'); ?>/images/lamp.png">
+				</div>
+				<div class="lampcols2">
+					<div class="lampcols2sty1">
+						<span>下决心做电商了，想快速气动隔膜泵电商业务，但不会建网店、千头万绪，</span><br/>
+						<span class="why">怎么办？</span><br/>
+						<span>看到电商机遇，认识到电商团队的重要，但找不到合适的电商人才，</span><br/>
+						<span>怎么办？</span><br/>
+						<span>已经开展电商运作，但团队不给力，业绩提升困难，</span><br/>
+						<span>怎么办？</span><br/>
+						<span>企业想自己组建电商团队，但纠结于试错成本高，</span><br/>
+						<span>怎么办？</span><br/>
+						<span>面对这种种的“怎么办”，</span><br/>
+						<span>怎么办？</span><br/>
+						<span>您如何选择？</span>
+					</div>
+					<div class="lampcols2sty2">
+						<span>正在生活电商团队愿为您分忧解难</span><br/>
+						<span>详询187-3605-5999</span>
+					</div>
+				</div>
+			</div>
+			<div class="service">
+				<div>
+					<div class="servicecols1">
+						<span>服务内容</span><br/>SERVICES
+					</div>
+				</div>
+				<div class="servicecols2">
+					<div> 
+						<span>电子商务代运营、外包服务</span><br/>天猫商城/淘宝/京东商城/拍拍商城/1号店等全店托管服务 
+					</div>
+				</div>
+			</div>
+			<div class="serveflow" >
+				<div class="servecols1"> 
+					<div>
+						<span>01入住淘宝天猫</span> <span>|</span> 
+						<span>02全店托管服务</span> <span>|</span> 
+						<span>03淘宝顾问式服务</span> <span>|</span> 
+						<span>04大视觉设计</span>
+					</div>
+				</div>
+				<div style="height:100px;">
+
+				</div>
+				<div class="servecols1">
+					<div>
+						<span>05电商摄影服务</span> <span>|</span> 
+						<span>06网店客服托管</span> <span>|</span> 
+						<span>07淘宝整合营销</span> <span>|</span> 
+						<span>08淘宝爆款打造</span>
+					</div>
+				</div>
+				<div style="height:100px;">
+
+				</div>
+			</div>
+			<div>
+				<div> <img src="<?php bloginfo('template_url'); ?>/images/case.png"> </div>
+			</div>
+			<div>
+				<div class="signup">
+					<div class="signupcols1">
+						<span>在线报名</span><br/>ONLINE REGISTRATION<br/>
+						<span class="colsspan">不做与企业利润增长无关的事</span>
+					</div>
+					<div class="signupcols2">
+						<span>Add.中国 郑州郑东新区商都世贸中心E座804</span><br/>
+						<span>Tel.86-(0)371 6688 1345</span><br/>
+						<span>E-mail.whjbit@126.com</span>
+					</div>
+				</div>
+				<div style="float:left; background-color:#D7E3EF; width:400px; height:200px;">
+					<form>
+						姓名 <input type="input" id="uname" /><br/>
+						手机 <input type="input" id="phone" /><br/>
+						公司 <input type="input" id="companyname" /><br/>
+						邮箱 <input type="input" id="email" /><br/>
+
+					</form>
+				</div>
+			</div>
+			<div style="clear=both;"></div>
+		</div>
+		
+	</div>
+	<?php get_footer(); ?>
+	<?php echo "11111"; ?>

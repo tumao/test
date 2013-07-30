@@ -1,0 +1,301 @@
+/*
+Theme Name: life
+Theme URI: http://wordpress.org/
+Description: The life theme for WordPress.
+Author: r
+Version: 1.0 
+Tags: contain many picture
+
+General comments and license statement (optional).
+*/
+#header{
+	margin-top: 15px;
+}
+#menu{
+	font-family: Arial;
+	font-size:14px;
+	height:120px;
+	background:#ffe417;	
+}
+#menu ul{
+	float:left;
+	padding:0 0 0 8px;
+	margin: 0;
+	list-style:none;
+	height:35px;
+	background:#ffe417;
+	display:inline;
+}
+#menu ul li {
+	float:left;
+/*	margin-top:60px;
+	margin-left:30px;*/
+	padding:60px 10px 0;
+}
+#menu ul li a {
+	display:block;
+	line-height: 20px;
+	color:black;
+	text-decoration: none;
+	padding:0 0 0 14px;
+}
+#main {
+	font-size:16px;
+}
+#content {
+	width:950px;
+	margin:0 auto;
+}
+#content .col1 {
+	margin-top:5px;
+	clear:both;
+}
+#content .col11 {
+	background-color: #ffe417;
+	height: 260px;
+	width:390px;
+	float:left;
+}
+#footer {
+	background-color:#EFE417; 
+	clear:both; 
+	width:950px; 
+	margin:0 auto; 
+	height:120px;
+}
+#header .wid {
+	width:950px; 
+	margin:0 auto;
+}
+#logo {
+	float:left;
+}
+#header .tel {
+	/*margin:10px 0 0 20px; */
+	float:left;
+}
+#header .tel a{
+	text-decoration:none; 
+	font-size:35px;
+}
+#header .tel a span{
+	color:red;
+}
+
+#main #content  .blank {
+	background-color:#D7E3EF;
+	height:260px; 
+	width:291px; 
+	float:left;
+}
+#main #content .chat {
+	clear:both;
+}
+#main #content .chat_pic {
+	float:left;
+}
+#content .chat_pic img{
+	width:545px;
+	height:260px;
+}
+#main #content .chat_char {
+	height:260px; 
+	width:405px; 
+	background-color:#DDDDDD; 
+	float:left;
+}
+#main #content .chat_charstyle {
+	margin-top:60px; 
+	line-height:40px; 
+	margin-left:40px; 
+	font-family:arial;
+}
+#main #content .advt {
+	clear:both;
+}
+#main #content .advt .cols1 {
+	float:left; 
+	background-color:#DDDDDD; 
+	width:410px; 
+	height:260px;
+}
+#main #content .advt .advtcols2sty {
+	line-height:30px;
+	padding:100px 0 0 40px;
+}
+#content .chartype {
+	padding-top: 100px;
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	/*display:inline-block;*/
+}
+#content .pic {
+	float: left;
+}
+#content .pic img {
+	height:260px;
+	width:269px;
+}
+
+#content .advtcols2{
+	float:left; 
+	background-color:#EFE417; 
+	width:540px; 
+	height:260px;
+}
+#content .midpic {
+	clear:both;
+}
+#content .midpic .midpiccols1{
+	float:left;
+}
+#content .midpiccols1 img {
+	width:950px;
+	height:259px;
+}
+#content .lamp {
+	clear:both;
+}
+#content .lamp .lampcols1{
+	float:left;
+}
+#content .lampcols1 img {
+	width:360px;
+	height: 460px;
+}
+#content .lamp .lampcols2 {
+	float:left; 
+	width:590px; 
+	height:460px; 
+	background-color:#1E272E; 
+	color:white;
+}
+#content .lamp .lampcols2sty1 {
+	padding:40px;
+}
+#content .lamp .lampcols2sty1 span {
+	font-size: 15px;
+}
+#content .lamp .lampcols2sty1 .why{
+	font-size:30px;
+	font-weight: bold;
+}
+#content .lamp .lampcols2sty2 {
+	font-size: 30px;
+	padding-left: 40px;
+	color:yellow;
+}
+#content .service{
+	clear:both;
+	height: 106px;
+	background-color: #FFE417;
+	margin-top:20px;
+}
+#content .service .servicecols1 {
+	height:100px; 
+	width:450px; 
+	float:left; 
+	font-size:30px; 
+	text-align:center; 
+	font-family:arial; 
+	padding-top:20px;
+}
+#content .service .servicecols2 {
+	height:100px; 
+	width:450px; 
+	float:left; 
+	font-size:16px; 
+	text-align:center; 
+	font-family:arial; 
+}
+#content .servicecols2 .flowpic {
+	display:inline;
+}
+#content .servicecols2 img{
+	/*margin:7px;*/
+}
+#content .service .servicecols2 div {
+	margin-top:20px;
+}
+#content .service .servicecols2 span {
+	font-weight:bold; 
+	font-size:30px;
+}
+#content .serveflow {
+	clear:both;
+}
+#content .serveflow .servecols1 {
+	background-color:#FBC500; 
+	width:950px; 
+	height:40px;
+}
+#content .serveflow .servecols1 div {
+	height:40px; 
+	width:950px; 
+	padding-top:12px; 
+	text-align:center;
+}
+#content .serveflow .servecols1 div span {
+	margin-right: 35px;
+	font-size: 20px;
+}
+#content .signup {
+	float:left; 
+	background-color:#45B79D; 
+	width:540px; 
+	height:260px; 
+	color:white;
+}
+#content .signup .signupcols1 {
+	font-size: 25px;
+	font-family: arial;
+	padding: 20px 70px;
+	text-align: left;
+}
+#content .signup .signupcols1 .colsspan {
+	font-size: 16px;
+}
+#content .signup .signupcols2 {
+	font-size: 14px;
+	padding:30px 0 0 70px;
+}
+#content .case img{
+	width:950px;
+	height:205px;
+}
+#content .servercols2 {
+	height:180px;
+	border:1px solid gray;
+	margin:10px;
+}
+#content .servercols2 .flow{
+	/*display:inline;*/
+	float:left;
+	font-size:12px;
+	margin:3px;
+}
+#content .servercols2 .flow img{
+	margin:7px;
+	height:140px;
+	width:210px;
+	margin-top:13px;
+}
+#content .servercols2 .flow div {
+	margin-left: 10px;
+	font-weight: bold;
+}
+#content .yihaosushe{
+	height:200px; 
+	margin:10px;
+}
+#content .yihaosushe img{
+	margin:10px;
+	width: 158px;
+	height:166px;
+}
+#uname,#phone,#companyname,#email{
+	background-color: #B1D4EA;
+	border:none;
+	width:270px;
+}

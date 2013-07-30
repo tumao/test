@@ -1,0 +1,84 @@
+@import url(public.css);
+
+/*
+ * $Rev: * $
+ * Created: fengling
+ * Modified: $Author: fengling $ $LastChangedDate: 2010-08-03 09:00:00 +0800 (���ڶ�, 09 ���� 2011) $
+ */
+
+.main{ height:440px; width:960px; margin-top:20px; }
+.main .culArea{ float:right; width:640px; display:inline;}
+.main .culArea li{ float:right; width:310px; display:inline;margin:0 3px 10px 7px;}
+.main .culArea li img{ height:210px; width:310px;}
+.main .subArea{ float:left; width:159px;}
+.main .subArea li{ height:29px; text-align:center; width:100%; background-color:#E6E6E6; border-bottom:1px solid #fff;}
+.main .subArea li a{color:#000000; font-size:12px; line-height:29px;}
+.main .subArea li a:hover{ color:#FF0000;}
+.main .subArea li a.this{ color:#FF0000;}
+
+.about_us{ width:782px; float:right; display:inline; overflow:hidden;}
+.about_us .imgArea{ width:280px; float:left; display:inline;}
+.about_us .imgArea img{ width:280px; height:179px;}
+.about_us .txtArea{ float:right; width:480px; display:inline;}
+.about_us .txtArea p{ font-size:12px; color:#000000; font-family:SimSun; line-height:18px; text-indent:24px;}
+
+.glory{float:right; width:642px; display:inline;}
+.glory li{ float:left;display:inline; margin:0 1px 10px 9px;}
+
+.license{float:right; width:640px; display:inline;}
+.license li{ float:left; width:310px; display:inline;margin:0 3px 10px 7px; position:relative;}
+.license li h3{ height:30px; background:url(../iamges/tm_bg.png); line-height:30px; font-weight:300; color:#fff; padding-left:20px; width:290px; font-size:12px; position:absolute; left:0; bottom:0;}
+.licenseli img{ height:210px; width:310px;}
+
+.news{float:left; width:159px; display:inline;}
+.news h3{ font-family:Arial; color:#808080; font-size:24px; font-weight:300; line-height:18px;}
+.newsArea{float:right; width:640px; display:inline;}
+.newsArea dl{ float:right; margin-right:3px; width:475px; margin-bottom:10px;}
+.newsArea dl dt{ float:left; display:inline; width:310px; border-top:1px solid #333;}
+.newsArea dl dt h3{ text-align:right;}
+.newsArea dl dt h3 a{ line-height:20px; font-size:12px; color:#333; font-weight:300;}
+.newsArea dl dd{ float:right; width:150px; display:inline;}
+.newsArea dl dd img{ width:150px; height:100px;}
+
+.workshopArea{ float:right; width:480px; display:inline; margin-top:110px;}
+.workshopArea li{ float:right;display:inline;margin:0 3px 10px 7px;}
+
+.firing{ float:right; width:320px; display:inline;}
+.firing li{ float:right;display:inline;margin:0 3px 10px 7px;}
+
+.assembling{ float:right; width:480px; display:inline;}
+.assembling li{ float:right;display:inline;margin:0 3px 10px 7px;}
+
+.SRTC{ float:right; width:320px; display:inline;}
+.SRTC li{ float:right;display:inline;margin:0 5px 10px;}
+
+.jczxtab{float:right; width:480px; display:inline; overflow:hidden;}
+.jczxtab h3{ float:left; text-align:right; display:inline; width:150px; font-size:12px; font-weight:300; color:#333;}
+.jczxtab .tab{ float:right; margin-right:3px; width:310px; border-bottom:1px solid #333; border-right:1px solid #333;}
+.jczxtab .tab td{ height:21px; text-align:center;border-top:1px solid #333; border-left:1px solid #333;}
+
+
+.product{ width:640px; float:right; display:inline; overflow:hidden;}
+.product .imgArea{ width:320px; float:right; display:inline;}
+.product .imgArea img{ width:150px; height:100px; margin:0 5px 10px; float:right; display:inline;}
+.product .txtArea{ float:left; width:310px; display:inline;text-align:justify;}
+.product .txtArea p{ font-size:12px; color:#000000; font-family:SimSun; line-height:18px; text-indent:24px;text-align:justify;}
+
+.connaction{ margin-left:150px; margin-top:110px; width:480px; height:210px; float:left; display:inline;}
+.connaction dt{ width:565px;margin-left:160px;}
+.connaction dd{  width:250px; margin-left:330px;}
+
+.info{ width:560px; margin:40px 0 0 160px; float:left; display:inline;}
+.info h3{ font-size:13px; color:#333; line-height:18px; font-weight:300;}
+.info .tab{ width:470px; margin-top:10px;}
+.info .tab td{ text-align:right; height:30px;}
+.info .tab td span{ color:#F00;}
+.info .tab td input{ width:370px; height:12px; padding:5px; border:1px solid #999; line-height:12px;}
+.info .tab td .input{width:370px; height:70px;  padding:5px; border:1px solid #999; line-height:12px;}
+.info .tab td .btn{ padding:0; width:73px; height:23px; line-height:23px; background-color:#808080; color:#fff; margin-left:20px; cursor:pointer;}
+.view dl{float:right;margin-bottom:10px;margin-right:3px;}
+.view dl dt{display:inline;float:left;width:465px;border-top:1px solid #333;margin-right:10px;}
+.view dl dd{display:inline;float:right;width:320px;}
+.view dl dt a{color:#333;font-size:12px;}
+.view dl dt p{font-weight:300;font-size:12px;line-height:20px;}
+.view dl dd img{margin-right:5px; margin-bottom:10px;}
